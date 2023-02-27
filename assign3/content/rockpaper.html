@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>play rock paper scissors lizard spock</title>
+    <link rel="stylesheet" href="../css/rockpaper.css">
+</head>
+<body>
+    
+    <header>
+        <h1>rock paper scissors lizard spock</h1>
+    </header>
+
+    <main>
+        
+        <div id="input-area">
+        <aside></aside>
+        <section id="choises">
+                <img src="../images/lizard.jpg" alt="lizard" id="lizard-image" onclick="round(1)">
+                <img src="../images/spock.jpg" alt="spock" id="spock-image" onclick="round(2)">
+                <img src="../images/paper.jpg" alt="paper" id="paper-image" onclick="round(4)">
+                <img src="../images/scissors.jpg" alt="scissors" id="scissors-image" onclick="round(3)">
+                <img src="../images/rock.jpg" alt="rock" id="rock-image" onclick="round(0)">
+        </section>
+        <aside></aside>
+        </div>
+
+        <section><h3 id="result"></h3></section>
+    </main>
+
+    <script src="../js/rockpaper.js"></script>
+</body>
+</html>
